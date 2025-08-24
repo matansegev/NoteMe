@@ -13,8 +13,6 @@ NoteMe is a modern web application for creating and managing notes. The app allo
 - 🎨 Modern design with Material-UI
 - 🗑️ Delete notes
 - 📝 Edit title and content
-- 🔄 Real-time updates
-- 📱 Mobile-friendly design
 
 ## Technologies
 
@@ -48,13 +46,6 @@ npm run dev
 http://localhost:5173
 ```
 
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build project for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint for code quality
-
 ## Project Structure
 
 ```
@@ -74,35 +65,4 @@ NoteMe/
 ├── .gitignore
 └── README.md
 ```
-
-## Usage
-
-1. **Creating a new note:**
-   - Click on the text area to expand the form
-   - Enter title (optional)
-   - Enter note content
-   - Click the + button to save
-
-2. **Deleting a note:**
-   - Click the delete button (🗑️) on any note
-
-3. **Managing notes:**
-   - Notes are automatically saved in local state
-   - Interface is responsive and works on all devices
-
-## GitHub Repository
-
-🌐 **Repository**: [https://github.com/matansegev/NoteMe](https://github.com/matansegev/NoteMe)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is available under the MIT License.
-
-## Contact
-
-For questions or suggestions, please create an issue in the project repository.
 
