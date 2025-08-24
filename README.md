@@ -13,6 +13,8 @@ NoteMe is a modern web application for creating and managing notes. The app allo
 - 🎨 Modern design with Material-UI
 - 🗑️ Delete notes
 - 📝 Edit title and content
+- 🔄 Real-time updates
+- 📱 Mobile-friendly design
 
 ## Technologies
 
@@ -21,12 +23,13 @@ NoteMe is a modern web application for creating and managing notes. The app allo
 - **Build Tool**: Vite
 - **Icons**: Material Icons
 - **State Management**: React Hooks (useState)
+- **Package Manager**: npm
 
 ## Installation
 
 1. Clone the project:
 ```bash
-git clone <repository-url>
+git clone https://github.com/matansegev/NoteMe.git
 cd NoteMe
 ```
 
@@ -48,9 +51,9 @@ http://localhost:5173
 ## Available Scripts
 
 - `npm run dev` - Start development server
-- `npm run build` - Build project
-- `npm run preview` - Preview build
-- `npm run lint` - Code linting
+- `npm run build` - Build project for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint for code quality
 
 ## Project Structure
 
@@ -67,18 +70,39 @@ NoteMe/
 │   │   └── Footer.jsx       # Footer component
 │   └── index.jsx            # Application entry point
 ├── package.json
+├── vite.config.js
+├── .gitignore
 └── README.md
 ```
 
 ## Usage
 
 1. **Creating a new note:**
-   - Click on the text area
+   - Click on the text area to expand the form
    - Enter title (optional)
    - Enter note content
    - Click the + button to save
 
 2. **Deleting a note:**
-   - Click the delete button (🗑️)
+   - Click the delete button (🗑️) on any note
 
+3. **Managing notes:**
+   - Notes are automatically saved in local state
+   - Interface is responsive and works on all devices
+
+## GitHub Repository
+
+🌐 **Repository**: [https://github.com/matansegev/NoteMe](https://github.com/matansegev/NoteMe)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is available under the MIT License.
+
+## Contact
+
+For questions or suggestions, please create an issue in the project repository.
 
