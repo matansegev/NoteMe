@@ -4,7 +4,7 @@ A modern note-taking web application built with React and Material-UI.
 
 ## Demo
 
-On CodeSandBox - https://codesandbox.io/p/sandbox/noteapp-5gytpv?file=%2Fsrc%2Fcomponents%2FApp.jsx
+On CodeSandBox - https://5gytpv.csb.app/
 
 ## Project Description
 
