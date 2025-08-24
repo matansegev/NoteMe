@@ -2,6 +2,10 @@
 
 A modern note-taking web application built with React and Material-UI.
 
+## Demo
+
+On CodeSandBox - https://codesandbox.io/p/sandbox/noteapp-5gytpv?file=%2Fsrc%2Fcomponents%2FApp.jsx
+
 ## Project Description
 
 NoteMe is a modern web application for creating and managing notes. The app allows users to create notes with titles and content, display them in a user-friendly interface, and easily delete them.
